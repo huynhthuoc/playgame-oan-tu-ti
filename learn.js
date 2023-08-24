@@ -1,17 +1,3 @@
-{/* <div class="tuti">
-<div class="imgTop">
-    <img class="bua" src="./img/búa.png" alt="">
-    <img class="keo" src="./img/1600106733_374_Oan-Tu-Ti-Keo-Bua-Bao-va-cach-choi-de (1).png" alt="">
-    <img class="bao" src="./img/cái bao.png" alt="">
-</div>
-
-<div class="imgBottom">
-    <img class="bua" src="./img/búa.png" alt="">
-    <img class="keo" src="./img/1600106733_374_Oan-Tu-Ti-Keo-Bua-Bao-va-cach-choi-de (1).png" alt="">
-    <img class="bao" src="./img/cái bao.png" alt="">
-</div>
-</div> */}
-
 const imgTop = document.querySelectorAll('.imgTop img')
 const imgBottom = document.querySelectorAll('.imgBottom img')
 const allimgs = document.querySelectorAll('img')
@@ -20,7 +6,6 @@ const module1 = document.querySelector('.module')
 const endGame = document.querySelector('.endGame')
 const btn = document.querySelector('button')
 const h1 = document.querySelector('h1')
-
 
 imgBottom.forEach(item => {
     item.addEventListener('click', e => {
