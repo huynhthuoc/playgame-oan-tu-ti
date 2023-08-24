@@ -18,29 +18,21 @@
     position: relative;
     overflow: hidden;
 }
-
 .imgTop {
     display: flex;
     transform: rotate(180deg);
 }
-
 .imgBottom {
     display: flex;
 }
-
-
-
-
 img {
     width: 250px;
     transition: all .4s;
 }
-
 img:hover {
     transform: scale(1.5);
     cursor: pointer;
 }
-
 .module {
     position: fixed;
     top: 0;
@@ -53,7 +45,6 @@ img:hover {
     align-items: center;
     z-index: -99;
 }
-
 .endGame {
     width: 100%;
     display: flex;
@@ -63,7 +54,6 @@ img:hover {
     padding: 30px;
     border-radius: 30px;
 }
-
 h1 {
     font-size: 60px;
     margin-bottom: 20px;
@@ -74,7 +64,6 @@ h1 {
     border-top: 5px solid rgb(43, 14, 14);
 
 }
-
 button {
     outline: none;
     border: none;
@@ -87,36 +76,35 @@ button {
     box-shadow: 4px 10px black;
     transition: all .2s;
 }
-
 button:hover {
     transform: translateY(7px);
     box-shadow: 4px 4px black;
 }
 
+
+
+// :)) lâu quá không viết CSS QUÊN ( ÔN LẠI SASS + property CSS )
+// !! ĐANG MẤT TRÍ NHỚ CSS TẠM THỜI :>
 @media screen and (max-width:775px) {
     img {
         width: 200px;
     }
 }
-
 @media screen and (max-width:642px) {
     img {
         width: 180px;
     }
 }
-
 @media screen and (max-width:550px) {
     img {
         width: 170px;
     }
 }
-
 @media screen and (max-width:490px) {
     img {
         width: 160px;
     }
 }
-
 @media screen and (max-width:470px) {
     img {
         width: 150px;
@@ -125,87 +113,65 @@ button:hover {
     h1 {
         font-size: 50px;
     }
-
     button {
         padding: 20px;
     }
 }
-
 @media screen and (max-width:430px) {
     img {
         width: 145px;
     }
-
 }
-
 @media screen and (max-width:410px) {
     img {
         width: 140px;
     }
-
     h1 {
         font-size: 44px;
     }
-
     button {
         padding: 19px;
     }
 }
-
-
 @media screen and (max-width:390px) {
     img {
         width: 135px;
     }
-
 }
-
-
 @media screen and (max-width:370px) {
     img {
         width: 130px;
     }
-
 }
-
 @media screen and (max-width:360px) {
     img {
         width: 120px;
     }
-
     h1 {
         font-size: 40px;
     }
-
     button {
         padding: 20px;
     }
-
 }
-
 @media screen and (max-width:340px) {
     img {
         width: 100px;
     }
-
     h1 {
         font-size: 40px;
     }
-
     button {
         padding: 20px;
     }
 }
-
 @media screen and (max-width:340px) {
     img {
         width: 110px;
     }
-
     h1 {
         font-size: 35px;
     }
-
     button {
         padding: 15px;
     }
