@@ -80,4 +80,3 @@ imgBottom.forEach(item => {
     })
 
 })
-
